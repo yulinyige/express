@@ -72,6 +72,28 @@ compromise among committers be the default resolution mechanism.
 * [mirawlings](https://github.com/mirawlings) - **Michael Rawlings** &lt;mlrawlings@gmail.com&gt; (he/him)
 * [helio-frota](https://github.com/helio-frota) - **Helio Frota** &lt;hesilva@redhat.com&gt; (he/him)
 
+# Triaging
+
+Open issues in this repo are subjected to the triage criteria:
+
+`needs triage`: Issues that are opened and un-attended / unclassified belongs to this
+category, and are either automatically or manually labelled with `needs triage`
+
+`question`: Issues that are not leading upto a bug or an enhancement to any of the
+express repos, but emanating from the usage of it are classified as `question`
+
+`bug`: Issues that, after investigation, provides a reasonable conviction about
+a potential bug in the express code, are classified as `question`
+
+`enhancement`: Issues that, after discussion, inventigation, and technical assessment,
+found to be a reasonable candidate for a good to have feature, are tagged as `enhancement`.
+
+Raisers may appeal to change the tag with sufficient reasoning.
+Maintainers can change the tag based on the change in inference in the course of investigation.
+
+In all cases, issues may be closed by maintainers if they don't receive timely response when
+further information is sought, or when additional questions are asked.
+
 ## Becoming a Committer
 
 All contributors who land a non-trivial contribution should be on-boarded in a timely manner,
