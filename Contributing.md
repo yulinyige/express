@@ -85,7 +85,7 @@ express repos, but emanating from the usage of it are classified as `question`
 `bug`: Issues that, after investigation, provides a reasonable conviction about
 a potential bug in the express code, are classified as `bug`
 
-`enhancement`: Issues that, after discussion, inventigation, and technical assessment,
+`enhancement`: Issues that, after discussion, investigation, and technical assessment,
 found to be a reasonable candidate for a good to have feature, are tagged as `enhancement`.
 
 Raisers may appeal to change the tag with sufficient reasoning.
