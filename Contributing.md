@@ -74,7 +74,7 @@ compromise among committers be the default resolution mechanism.
 
 # Triaging
 
-Open issues in this repo are subjected to the triage criteria:
+Open issues in this repo are subject to the following triage criteria:
 
 `needs triage`: Issues that are opened and un-attended / unclassified belong to this
 category, and are either automatically or manually labelled with `needs triage`
@@ -99,21 +99,21 @@ further information is sought, or when additional questions are asked.
  - review the organization's [Dashboard][]
  - pay special attention to these columns: stars, watchers, open issues and contributors
  - this gives you a general idea about the criticality and health of the repository
- - pick choose the top n based on that criteria
+ - pick and choose the top few based on that criteria
  - augment that info with your skills in the middleware space - existing or aspiring
- - refine the priority based on that
+ - refine and prioritize your picked list further based on that
  - for a specific repo, do the following:
    - review the project's contribution guideline if present. In a nutshell, pledge yourself to the community's standards and values.
    - review the documentation. for most of the projects, it is a single page doc
    - understand the key functions: APIs, their semantics, configurations and use cases
-   - write `own` test programs to re-affirm your understanding on these functions
-   - this `may` throw up some gaps in documentation. record those gaps
+   - write your own test programs to re-affirm your understanding of the key functions
+   - this may identify some gaps in documentation, record those gaps
    - skim through the issue backlog; identify low hanging ones - mostly new ones
    - attempt to recreate issues based on the OP description. ask questions if required
    - validate with the API spec / doc.
    - it is a good idea to turn on DEBUG to get the next level information
    - it is also a good idea to do live debugging to follow the control flow
-   - review the full list of issue backload, and make some categorization convenient to your way of work:
+   - review the full list of issue backloag, and make some categorization convenient to your way of work:
      - new, unattended issues
      - simple questions
      - hard bugs that are unresolved for years
@@ -122,7 +122,7 @@ further information is sought, or when additional questions are asked.
      - issues that imply gaps in documentation
      - issues that imply recurring patterns
      - these are not necessarily a disjoint list, mostly can have overlaps
-  - start addressing one type at a time - that build up knowledge on that area of code, interface and configuration
+  - start addressing one type at a time - that will build up knowledge of that area of code, interface and configuration
   - at this point it is a good idea to make one pass of reading through the entire source
     - this may be possible for smaller components like session, but may be tough for big ones (like express)
   - for recurring patterns, it is a good idea to demonstrate through fully functional programs and publish through gist for later re-use
