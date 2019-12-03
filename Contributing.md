@@ -113,7 +113,7 @@ further information is sought, or when additional questions are asked.
    - validate with the API spec / doc.
    - it is a good idea to turn on DEBUG to get the next level information
    - it is also a good idea to do live debugging to follow the control flow
-   - review the full list of issue backloag, and make some categorization convenient to your way of work:
+   - review the full list of issue backlog, and make some categorization convenient to your way of work:
      - new, unattended issues
      - simple questions
      - hard bugs that are unresolved for years
