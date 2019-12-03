@@ -125,7 +125,7 @@ further information is sought, or when additional questions are asked.
   - start addressing one type at a time - that build up knowledge on that area of code, interface and configuration
   - at this point it is a good idea to make one pass of reading through the entire source
     - this may be possible for smaller components like session, but may be tough for big ones (like express)
-  - for recurring patterns, it is a good idea to demonstrate throughfully functional programs and publish through gist and reuse it
+  - for recurring patterns, it is a good idea to demonstrate through fully functional programs and publish through gist for later re-use
   - review and identify the list of project maintainers. if necessary, at-mention one or more of them
   - finally, make sure all your interactions are professional, welcoming and respectful to the parties involved.
 
