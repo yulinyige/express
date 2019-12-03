@@ -94,6 +94,41 @@ Maintainers can change the tag based on the change in inference in the course of
 In all cases, issues may be closed by maintainers if they don't receive timely response when
 further information is sought, or when additional questions are asked.
 
+## Approaches and Best Practices for getting into triage contributions
+
+ - review the organization's [Dashboard][]
+ - pay special attention to these columns: stars, watchers, open issues and contributors
+ - this gives you a general idea about the criticality and health of the repository
+ - pick choose the top n based on that criteria
+ - augment that info with your skills in the middleware space - existing or aspiring
+ - refine the priority based on that
+ - for a specific repo, do the following:
+   - review the project's contribution guideline if present. In a nutshell, pledge yourself to the community's standards and values.
+   - review the documentation. for most of the projects, it is a single page doc
+   - understand the key functions: APIs, their semantics, configurations and use cases
+   - write `own` test programs to re-affirm your understanding on these functions
+   - this `may` throw up some gaps in documentation. record those gaps
+   - skim through the issue backlog; identify low hanging ones - mostly new ones
+   - attempt to recreate issues based on the OP description. ask questions if required
+   - validate with the API spec / doc.
+   - it is a good idea to turn on DEBUG to get the next level information
+   - it is also a good idea to do live debugging to follow the control flow
+   - review the full list of issue backload, and make some categorization convenient to your way of work:
+     - new, unattended issues
+     - simple questions
+     - hard bugs that are unresolved for years
+     - ongoing discussions on APIs and functions
+     - issues that imply potential RFEs
+     - issues that imply gaps in documentation
+     - issues that imply recurring patterns
+     - these are not necessarily a disjoint list, mostly can have overlaps
+  - start addressing one type at a time - that build up knowledge on that area of code, interface and configuration
+  - at this point it is a good idea to make one pass of reading through the entire source
+    - this may be possible for smaller components like session, but may be tough for big ones (like express)
+  - for recurring patterns, it is a good idea to demonstrate throughfully functional programs and publish through gist and reuse it
+  - review and identify the list of project maintainers. if necessary, at-mention one or more of them
+  - finally, make sure all your interactions are professional, welcoming and respectful to the parties involved.
+
 ## Becoming a Committer
 
 All contributors who land a non-trivial contribution should be on-boarded in a timely manner,
@@ -119,3 +154,5 @@ Members can be added to the TC at any time. Any committer can nominate another c
 to the TC and the TC uses its standard consensus seeking process to evaluate whether or
 not to add this new member. Members who do not participate consistently at the level of
 a majority of the other members are expected to resign.
+
+[Dashboard]: https://expressjs.github.io/statusboard/projects
