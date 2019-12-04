@@ -158,5 +158,3 @@ Members can be added to the TC at any time. Any committer can nominate another c
 to the TC and the TC uses its standard consensus seeking process to evaluate whether or
 not to add this new member. Members who do not participate consistently at the level of
 a majority of the other members are expected to resign.
-
-[Dashboard]: https://expressjs.github.io/statusboard/projects
