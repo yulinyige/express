@@ -96,38 +96,42 @@ further information is sought, or when additional questions are asked.
 
 ## Approaches and Best Practices for getting into triage contributions
 
- - review the organization's [Dashboard][]
- - pay special attention to these columns: stars, watchers, open issues and contributors
- - this gives you a general idea about the criticality and health of the repository
- - pick and choose the top few based on that criteria
- - augment that info with your skills in the middleware space - existing or aspiring
- - refine and prioritize your picked list further based on that
- - for a specific repo, do the following:
-   - review the project's contribution guideline if present. In a nutshell, pledge yourself to the community's standards and values.
-   - review the documentation. for most of the projects, it is a single page doc
-   - understand the key functions: APIs, their semantics, configurations and use cases
-   - write your own test programs to re-affirm your understanding of the key functions
-   - this may identify some gaps in documentation, record those gaps
-   - skim through the issue backlog; identify low hanging ones - mostly new ones
-   - attempt to recreate issues based on the OP description. ask questions if required
-   - validate with the API spec / doc.
-   - it is a good idea to turn on DEBUG to get the next level information
-   - it is also a good idea to do live debugging to follow the control flow
-   - review the full list of issue backlog, and make some categorization convenient to your way of work:
-     - new, unattended issues
-     - simple questions
-     - hard bugs that are unresolved for years
-     - ongoing discussions on APIs and functions
-     - issues that imply potential RFEs
-     - issues that imply gaps in documentation
-     - issues that imply recurring patterns
-     - these are not necessarily a disjoint list, mostly can have overlaps
-  - start addressing one type at a time - that will build up knowledge of that area of code, interface and configuration
-  - at this point it is a good idea to make one pass of reading through the entire source
-    - this may be possible for smaller components like session, but may be tough for big ones (like express)
-  - for recurring patterns, it is a good idea to demonstrate through fully functional programs and publish through gist for later re-use
-  - review and identify the list of project maintainers. if necessary, at-mention one or more of them
-  - finally, make sure all your interactions are professional, welcoming and respectful to the parties involved.
+Review the organization's [StatusBoard](https://expressjs.github.io/statusboard/) ,
+pay special attention to these columns: stars, watchers, open issues and contributors.
+This gives you a general idea about the criticality and health of the repository.
+Pick a few projects based on that criteria and your interests and skills (existing or aspiring).
+
+Review the project's contribution guideline if present. In a nutshell,
+pledge yourself to the community's standards and values. Review the
+documentation, for most of the projects it is just the README.md, and
+make sure you understand the key APIs, semantics, configurations, and use cases.
+
+It might be helpful to write your own test programs to re-affirm your
+understanding of the key functions. This may identify some gaps in
+documentation, record those as they might be good PR's to open later.
+Skim through the issue backlog; identify low hanging ones and mostly new ones.
+From those, attempt to recreate issues based on the OP description and
+ask questions if required. No question is a bad question!
+
+### Other Helpful Hints:
+
+  - it is a good idea to turn on DEBUG to get the next level information
+  - it is also a good idea to do live debugging to follow the control flow
+  - review the full list of issue backlog, make some categorization convenient to your way of work:
+    - new, unattended issues
+    - simple questions
+    - hard bugs that are unresolved for years
+    - ongoing discussions on APIs and functions
+    - issues that imply potential RFEs
+    - issues that imply gaps in documentation
+    - issues that imply recurring patterns
+    - these are not necessarily a disjoint list, mostly can have overlaps
+ - start addressing one type at a time - that will build up knowledge of that area of code, interface and configuration
+ - at this point it is a good idea to make one pass of reading through the entire source
+   - this may be possible for smaller components like session, but may be tough for big ones (like express)
+ - for recurring patterns, it is a good idea to demonstrate through fully functional programs and publish through gist for later re-use
+ - review and identify the list of project maintainers. if necessary, at-mention one or more of them
+ - finally, make sure all your interactions are professional, welcoming and respectful to the parties involved.
 
 ## Becoming a Committer
 
