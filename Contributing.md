@@ -96,7 +96,7 @@ further information is sought, or when additional questions are asked.
 
 ## Approaches and Best Practices for getting into triage contributions
 
-Review the organization's [StatusBoard](https://expressjs.github.io/statusboard/) ,
+Review the organization's [StatusBoard](https://expressjs.github.io/statusboard/),
 pay special attention to these columns: stars, watchers, open issues and contributors.
 This gives you a general idea about the criticality and health of the repository.
 Pick a few projects based on that criteria and your interests and skills (existing or aspiring).
@@ -115,7 +115,7 @@ ask questions if required. No question is a bad question!
 
 ### Other Helpful Hints:
 
-  - it is a good idea to turn on DEBUG to get the next level information
+  - it is a good idea to turn on `DEBUG=*` (see https://www.npmjs.com/package/debug) to get the next level information
   - it is also a good idea to do live debugging to follow the control flow
   - review the full list of issue backlog, make some categorization convenient to your way of work:
     - new, unattended issues
