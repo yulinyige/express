@@ -133,6 +133,11 @@ ask questions if required. No question is a bad question!
  - review and identify the list of project maintainers. if necessary, at-mention one or more of them
  - finally, make sure all your interactions are professional, welcoming and respectful to the parties involved.
 
+### Becoming a Triager
+
+Raise a pull request in expressjs/express repo requesting access.
+Use https://github.com/expressjs/express/pull/4114 for reference.
+
 ## Becoming a Committer
 
 All contributors who land a non-trivial contribution should be on-boarded in a timely manner,
