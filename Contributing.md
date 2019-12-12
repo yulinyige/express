@@ -75,19 +75,14 @@ compromise among committers be the default resolution mechanism.
 
 # Triaging
 
-Open issues in this repo are subject to the following triage criteria:
+Open issues will be triaged as necessary. When a new issue is opened and a triager is available
+but is not sure what action to take on the issue, the triger should add the `needs triage` label.
+There are several labels that are mainly involved in triaging:
 
-`needs triage`: Issues that are opened and un-attended / unclassified belong to this
-category, and are either automatically or manually labelled with `needs triage`
-
-`question`: Issues that are not leading upto a bug or an enhancement to any of the
-express repos, but emanating from the usage of it are classified as `question`
-
-`bug`: Issues that, after investigation, provides a reasonable conviction about
-a potential bug in the express code, are classified as `bug`
-
-`enhancement`: Issues that, after discussion, investigation, and technical assessment,
-found to be a reasonable candidate for a good to have feature, are tagged as `enhancement`.
+* `needs triage`: Issues that are opened and un-attended/unclassified.
+* `question`: Issues that are not leading up to a bug or an enhancement.
+* `bug`: Issues that present a reasonable conviction there is a bug.
+* `enhancement`: Issues that are found to be a reasonable candidate for a good to have feature.
 
 Raisers may appeal to change the tag with sufficient reasoning.
 Maintainers can change the tag based on the change in inference in the course of investigation.
