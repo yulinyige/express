@@ -57,82 +57,9 @@ discuss pending contributions in order to find a resolution. It is expected that
 small minority of issues be brought to the TC for resolution and that discussion and
 compromise among committers be the default resolution mechanism.
 
-### List of Triagers
-
-* [gireeshpunathil](https://github.com/gireeshpunathil) - **Gireesh Punathil** &lt;gpunathi@in.ibm.com&gt; (he/him)
-* [maxakuru](https://github.com/maxakuru) - **Max Edell** &lt;mgedell@gmail.com&gt; (he/him)
-* [digitaIfabric](https://github.com/digitaIfabric) - **David Wawryko** &lt;david@digitalfabric.ca&gt; (he/him)
-* [sushmeet](https://github.com/sushmeet) - **Sushmeet Sunger** &lt;sushmeet.sunger@gmail.com&gt; (he/him)
-* [AuggieH](https://github.com/auggieh) - **Auggie Hudak** &lt;hudakjerome@gmail.com&gt; (he/him)
-* [jake32321](https://github.com/jake32321) - **Jake Reed** &lt;jacob.reed2017@gmail.com&gt; (he/him)
-* [ghinks](https://github.com/ghinks) - **Glenn Hinks** &lt;ghinks@yahoo.com&gt; (he/him)
-* [daprahamian](https://github.com/daprahamian) - **Dan Aprahamian** (he/him)
-* [fed135](https://github.com/fed135) - **Frederic Charette** &lt;fredericcharette@gmail.com&gt; (he/him)
-* [HarshithaKP](https://github.com/HarshithaKP) - **Harshitha K P** &lt;harshi46@in.ibm.com&gt; (she/her)
-* [jonchurch](https://github.com/jonchurch) - **Jon Church** &lt;jon@osiolabs.com&gt; (he/him)
-* [mirawlings](https://github.com/mirawlings) - **Michael Rawlings** &lt;mlrawlings@gmail.com&gt; (he/him)
-* [helio-frota](https://github.com/helio-frota) - **Helio Frota** &lt;hesilva@redhat.com&gt; (he/him)
-
-# Triaging
-
-Open issues will be triaged as necessary. When a new issue is opened and a triager is available
-but is not sure what action to take on the issue, the triger should add the `needs triage` label.
-There are several labels that are mainly involved in triaging:
-
-* `needs triage`: Issues that are opened and un-attended/unclassified.
-* `question`: Issues that are not leading up to a bug or an enhancement.
-* `bug`: Issues that present a reasonable conviction there is a bug.
-* `enhancement`: Issues that are found to be a reasonable candidate for a good to have feature.
-
-Raisers may appeal to change the tag with sufficient reasoning.
-Maintainers can change the tag based on the change in inference in the course of investigation.
-
-In all cases, issues may be closed by maintainers if they don't receive timely response when
-further information is sought, or when additional questions are asked.
-
-## Approaches and Best Practices for getting into triage contributions
-
-Review the organization's [StatusBoard](https://expressjs.github.io/statusboard/),
-pay special attention to these columns: stars, watchers, open issues and contributors.
-This gives you a general idea about the criticality and health of the repository.
-Pick a few projects based on that criteria and your interests and skills (existing or aspiring).
-
-Review the project's contribution guideline if present. In a nutshell,
-pledge yourself to the community's standards and values. Review the
-documentation, for most of the projects it is just the README.md, and
-make sure you understand the key APIs, semantics, configurations, and use cases.
-
-It might be helpful to write your own test programs to re-affirm your
-understanding of the key functions. This may identify some gaps in
-documentation, record those as they might be good PR's to open later.
-Skim through the issue backlog; identify low hanging ones and mostly new ones.
-From those, attempt to recreate issues based on the OP description and
-ask questions if required. No question is a bad question!
-
-### Other Helpful Hints:
-
-  - it is a good idea to turn on `DEBUG=*` (see https://www.npmjs.com/package/debug) to get the next level information
-  - it is also a good idea to do live debugging to follow the control flow
-  - review the full list of issue backlog, make some categorization convenient to your way of work:
-    - new, unattended issues
-    - simple questions
-    - hard bugs that are unresolved for years
-    - ongoing discussions on APIs and functions
-    - issues that imply potential RFEs
-    - issues that imply gaps in documentation
-    - issues that imply recurring patterns
-    - these are not necessarily a disjoint list, mostly can have overlaps
- - start addressing one type at a time - that will build up knowledge of that area of code, interface and configuration
- - at this point it is a good idea to make one pass of reading through the entire source
-   - this may be possible for smaller components like session, but may be tough for big ones (like express)
- - for recurring patterns, it is a good idea to demonstrate through fully functional programs and publish through gist for later re-use
- - review and identify the list of project maintainers. if necessary, at-mention one or more of them
- - finally, make sure all your interactions are professional, welcoming and respectful to the parties involved.
-
 ### Becoming a Triager
 
-Raise a pull request in expressjs/express repo requesting access.
-Use https://github.com/expressjs/express/pull/4114 for reference.
+Anyone can become a triager! See (`Triage-Process.md`)[https://github.com/expressjs/express/blob/master/Triage-Process.md] for details.
 
 ## Becoming a Committer
 
