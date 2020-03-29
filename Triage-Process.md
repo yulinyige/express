@@ -82,7 +82,7 @@ There are a few cases where members can be removed as triagers:
 - Abuse or misuse of the role as deemed by the TC
 - Lack of participation for more than 6 months
 
-If any of these happen we will discuss as a part of the traige portion of the regular TC meetings.
+If any of these happen we will discuss as a part of the triage portion of the regular TC meetings.
 If you have questions feel free to reach out to any of the TC members.
 
 ### Other Helpful Hints:
