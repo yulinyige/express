@@ -83,7 +83,7 @@ There are a few cases where members can be removed as triagers:
 - Lack of participation for more than 6 months
 
 If any of these happen we will discuss as a part of the traige portion of the regular TC meetings.
-If you have questions feel free to reach out to any of the TC memebers.
+If you have questions feel free to reach out to any of the TC members.
 
 ### Other Helpful Hints:
 
