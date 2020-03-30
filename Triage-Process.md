@@ -9,7 +9,7 @@ classification:
 * `awaiting more info`: If more info has been requested from the author, apply this label.
 * `question`: User questions which do not appear to be bugs or enahncements.
 * `discuss`: Topics for discussion. Might end in an `enhancement` or `question` label.
-* `bug`: Issues that present a reasonable conviction there is a bug.
+* `bug`: Issues that present a reasonable conviction there is a reproducible bug.
 * `enhancement`: Issues that are found to be a reasonable candidate feature additions.
 
 In all cases, issues may be closed by maintainers if they don't receive timely response when
