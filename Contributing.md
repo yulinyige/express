@@ -59,7 +59,8 @@ compromise among committers be the default resolution mechanism.
 
 ### Becoming a Triager
 
-Anyone can become a triager! See (`Triage-Process.md`)[https://github.com/expressjs/express/blob/master/Triage-Process.md] for details.
+Anyone can become a triager! Read more about the process and requirements in
+(the triage process document)[Triage-Process.md].
 
 ## Becoming a Committer
 
