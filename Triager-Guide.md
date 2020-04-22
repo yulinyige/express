@@ -1,4 +1,6 @@
-# Issue Triage Process
+# Express Triager Guide
+
+## Issue Triage Process
 
 When a new issue or pull request is opened the issue will be labled with `needs triage`.
 If a traige team member is available they can help make sure all the required information
@@ -34,7 +36,7 @@ Skim through the issue backlog; identify low hanging issues and mostly new ones.
 From those, attempt to recreate issues based on the OP description and
 ask questions if required. No question is a bad question!
 
-### Becoming a Triager
+## Becoming a Triager
 
 Open a pull request in expressjs/express repo to request the triage role.
 Use https://github.com/expressjs/express/pull/4114 for reference. The important
@@ -74,7 +76,7 @@ Format for name addition to the bottom of this file:
 Once you have opened your PR, a member of the TC will add you to the `triage` team in the
 orgs requested.  They will then merge your PR and close the issue.  Happy triaging!
 
-### Removal of Triage Role
+## Removal of Triage Role
 
 There are a few cases where members can be removed as triagers:
 
@@ -85,7 +87,7 @@ There are a few cases where members can be removed as triagers:
 If any of these happen we will discuss as a part of the triage portion of the regular TC meetings.
 If you have questions feel free to reach out to any of the TC members.
 
-### Other Helpful Hints:
+## Other Helpful Hints:
 - Everyone is welcome to attend the [Express Technical Committee Meetings](https://github.com/expressjs/discussions#expressjs-tc-meetings), and as a triager it might help to get a better idea of what's happening with the project.
 - When exploring the modules functionality there are a few helpful steps:
   - Turn on `DEBUG=*` (see https://www.npmjs.com/package/debug) to get detailed log information
@@ -99,7 +101,7 @@ If you have questions feel free to reach out to any of the TC members.
 - Review and identify the maintainers. If necessary, at-mention one or more of them if you are unsure what to do
 - Make sure all your interactions are professional, welcoming and respectful to the parties involved.
 
-### List of Triagers
+## List of Triagers
 
 * [gireeshpunathil](https://github.com/gireeshpunathil) - **Gireesh Punathil** &lt;gpunathi@in.ibm.com&gt; (he/him)
 * [maxakuru](https://github.com/maxakuru) - **Max Edell** &lt;mgedell@gmail.com&gt; (he/him)
