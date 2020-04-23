@@ -64,9 +64,9 @@ Anyone can become a triager! Read more about the process of being a triager in
 
 (Open an issue in `expressjs/express` repo)[https://github.com/expressjs/express/issues/new]
 to request the triage role. State that you have read and agree to the
-(Code of Conduct)[Code-of-Conduct.md] and details of the role
+(Code of Conduct)[Code-of-Conduct.md] and details of the role.
 
-Here are examples you can just copy paste:
+Here is an example issue content you can copy and paste:
 
 ```
 Title: Request triager role for <your github username>
