@@ -59,8 +59,32 @@ compromise among committers be the default resolution mechanism.
 
 ### Becoming a Triager
 
-Anyone can become a triager! Read more about the process and requirements in
+Anyone can become a triager! Read more about the process of being a triager in
 (the triage process document)[Triage-Process.md].
+
+(Open an issue in `expressjs/express` repo)[https://github.com/expressjs/express/issues/new]
+to request the triage role. State that you have read and agree to the
+(Code of Conduct)[Code-of-Conduct.md] and details of the role
+
+Here are examples you can just copy paste:
+
+```
+Title: Request triager role for <your github username>
+
+I have read and understood the project's Code of Conduct.
+I also have read and understood the process and best practices around Express triaging.
+
+I request for a triager role for the following GitHub organizations:
+
+jshttp
+pillarjs
+express
+```
+
+Once you have opened your issue, a member of the TC will add you to the `triage` team in
+the organizations requested. They will then close the issue.
+
+Happy triaging!
 
 ## Becoming a Committer
 

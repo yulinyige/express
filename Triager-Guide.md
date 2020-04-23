@@ -36,46 +36,6 @@ Skim through the issue backlog; identify low hanging issues and mostly new ones.
 From those, attempt to recreate issues based on the OP description and
 ask questions if required. No question is a bad question!
 
-## Becoming a Triager
-
-Open a pull request in expressjs/express repo to request the triage role.
-Use https://github.com/expressjs/express/pull/4114 for reference. The important
-parts are to state that you have read and agree to the CoC and details of the role,
-that you add your name to the list of triagers (email and pronouns optional), and
-that you follow the commit message format.
-
-Here are examples you can just copy paste:
-
-Issue template:
-
-```
-Title: Request triager role for <your github username>
-
-I have read and understood the project's Contributing guide.
-I also have read and understood the process and best practices around Express triaging.
-
-I request for a triager role for the followting orgs:
-
-jshttp
-pillarjs
-express
-```
-
-Commit Message:
-
-```
-docs: request triager role for <your github username>
-```
-
-Format for name addition to the bottom of this file:
-
-```
-* [<your github username>](https://github.com/<your github username>) - **<Your Display Name>** &lt;<your email>&gt; (<your pronouns>)
-```
-
-Once you have opened your PR, a member of the TC will add you to the `triage` team in the
-orgs requested.  They will then merge your PR and close the issue.  Happy triaging!
-
 ## Removal of Triage Role
 
 There are a few cases where members can be removed as triagers:
