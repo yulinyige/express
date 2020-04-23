@@ -88,6 +88,7 @@ If any of these happen we will discuss as a part of the triage portion of the re
 If you have questions feel free to reach out to any of the TC members.
 
 ## Other Helpful Hints:
+
 - Everyone is welcome to attend the [Express Technical Committee Meetings](https://github.com/expressjs/discussions#expressjs-tc-meetings), and as a triager it might help to get a better idea of what's happening with the project.
 - When exploring the modules functionality there are a few helpful steps:
   - Turn on `DEBUG=*` (see https://www.npmjs.com/package/debug) to get detailed log information
