@@ -57,7 +57,7 @@ discuss pending contributions in order to find a resolution. It is expected that
 small minority of issues be brought to the TC for resolution and that discussion and
 compromise among committers be the default resolution mechanism.
 
-### Becoming a Triager
+## Becoming a Triager
 
 Anyone can become a triager! Read more about the process of being a triager in
 (the triage process document)[Triage-Process.md].
