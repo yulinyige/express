@@ -2,9 +2,13 @@ var express = require('../../');
 
 var app = express();
 
-app.get('/', function(req, res){
+app.get('/', function (req, res) {
   res.send('Hello World');
 });
+
+app.all('/all/path',function (req,res) {
+  res.send('this is all path');
+})
 
 /* istanbul ignore next */
 if (!module.parent) {
